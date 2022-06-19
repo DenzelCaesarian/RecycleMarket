@@ -1,0 +1,145 @@
+body {
+    background-image: linear-gradient(#fff, #fff, #fff, #E0F1CE, #E0F1CE, #fff, #fff);
+}
+
+/* Header */
+.navbar {
+    background-color: #fff;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-item a {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: small;
+    color: #181818;
+    border-radius: 50px;
+    border-color: #93D250;
+    border-width: 1.5px;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link:hover {
+    color: #93D250;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link.active {
+    font-weight: 600;
+    color: #93D250;
+}
+
+.navbar .navbar-nav .nav-item a.btn.btn-outline-success {
+    color: #181818;
+    background-color: #fff;
+}
+
+.navbar .navbar-nav .nav-item a.btn.btn-outline-success:hover {
+    color: #fff;
+    background-color: #93D250;
+}
+
+.navbar .navbar-nav .nav-item a.btn.btn-success {
+    color: #fff;
+    background-color: #93D250;
+}
+
+.navbar .navbar-nav .nav-item a.btn.btn-success:hover {
+    background-color: #457117;
+    border-color: #457117;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler span i {
+    color: #7DBE38;
+    font-size: 1.5rem;
+}
+
+/* Beranda: Landing Page */
+.landing-page {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.landing-page h1 {
+    color: #181818;
+    font-weight: 600;
+}
+
+.landing-page h1 span {
+    color: #7DBE38;
+}
+
+/* Beranda: Why Recycle Market */
+.why-recycle-market {
+    padding-top: 30px;
+    padding-bottom: 75px;
+}
+
+.why-recycle-market h1 {
+    color: #181818;
+    font-weight: 600;
+}
+
+.why-recycle-market h1 span {
+    color: #7DBE38;
+}
+
+.why-recycle-market .card {
+    color: #181818;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 20px;
+}
+
+.why-recycle-market .card h5 {
+    font-weight: 600;
+}
+
+/* Beranda: Testimoni */
+.testimoni h1 {
+    color: #181818;
+    font-weight: 600;
+}
+
+.testimoni h3 {
+    color: #7DBE38;
+    font-weight: 600;
+}
+
+.carousel-inner .carousel-item img {
+    margin: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert();
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    background-color: #181818;
+}
+
+footer .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+footer p {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: x-small;
+}
+
+footer .social-media {
+    filter: invert();
+}
+
+footer .social-media a {
+    text-decoration: none;
+}
