@@ -1,0 +1,117 @@
+body {
+    background-image: linear-gradient(135deg, #fff, #fff,#E0F1CE);
+}
+
+/* Header */
+.navbar {
+    background-color: #fff;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-item a {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: small;
+    color: #181818;
+    border-radius: 50px;
+    border-color: #93D250;
+    border-width: 1.5px;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link:hover {
+    color: #93D250;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link.active {
+    font-weight: 600;
+    color: #93D250;
+}
+
+.navbar .navbar-nav .nav-item a.btn.btn-outline-success {
+    color: #181818;
+    background-color: #fff;
+}
+
+.navbar .navbar-nav .nav-item a.btn.btn-outline-success:hover {
+    color: #fff;
+    background-color: #93D250;
+}
+
+.navbar .navbar-nav .nav-item a.btn.btn-success {
+    color: #fff;
+    background-color: #93D250;
+}
+
+.navbar .navbar-nav .nav-item a.btn.btn-success:hover {
+    background-color: #457117;
+    border-color: #457117;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler span i {
+    color: #7DBE38;
+    font-size: 1.5rem;
+}
+
+/* Perbaiki */
+.perbaiki {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.perbaiki h1 {
+    color: #181818;
+    font-weight: 600;
+}
+
+.perbaiki .col a {
+    color: #fff;
+    background-color: #93D250;
+    text-decoration: none;
+    border-radius: 50px;
+    border-radius: 50px;
+    border-color: #93D250;
+    border-width: 1.5px;
+}
+
+.perbaiki .col a:hover {
+    background-color: #457117;
+    border-color: #457117;
+}
+
+@media screen and (max-width: 1199px) {
+    .perbaiki .col {
+        text-align: center;
+    }
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    background-color: #181818;
+}
+
+footer .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+footer p {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: x-small;
+}
+
+footer .social-media {
+    filter: invert();
+}
+
+footer .social-media a {
+    text-decoration: none;
+}

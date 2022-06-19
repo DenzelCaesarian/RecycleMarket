@@ -1,0 +1,227 @@
+body {
+    background-image: linear-gradient(#fff, #fff, #fff, #E0F1CE, #E0F1CE, #fff, #fff);
+}
+
+/* Header */
+.navbar {
+    background-color: #fff;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.navbar input {
+    border-radius: 12.5px;
+    border-width: 1.5px;
+    border-color: #93D250;
+}
+
+.navbar .kata-kunci {
+    width: 1000px;
+    color: #93D250;
+    font-size: small;
+}
+
+.navbar .kata-kunci::placeholder {
+    color: #93D250;
+    font-size: small;
+}
+
+.navbar .cart {
+    color: #93D250;
+}
+
+@media screen and (max-width: 1399px) {
+    .navbar .kata-kunci {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .navbar .kata-kunci {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar .kata-kunci {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .navbar .kata-kunci {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 347px) {
+    .navbar .kata-kunci {
+        width: 100px;
+    }
+}
+
+/* Toko */
+.kategori .outer-box {
+    border-width: 0;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.kategori .outer-box h5 {
+    color: #181818;
+    font-weight: 600;
+}
+
+.kategori .outer-box a {
+    text-decoration: none;
+}
+
+.kategori .outer-box .list-kategori {
+    color: #181818;
+    border-color: #93D250;
+    border-radius: 20px;
+}
+
+.kategori .outer-box .list-kategori:hover {
+    background-color: #93D250;
+}
+
+.kategori .outer-box .list-kategori .ikon-kategori {
+    color: #93D250;
+    font-size: 1.5rem;
+}
+
+.kategori .outer-box .list-kategori:hover .ikon-kategori {
+    color: #fff;
+}
+
+.kategori .outer-box .list-kategori p {
+    font-weight: 500;
+}
+
+.kategori .outer-box .list-kategori:hover p {
+    color: #fff;
+}
+
+.top-seller .outer-box {
+    border-width: 0;
+    border-radius: 20px;
+    background-color: #93D250;
+}
+
+.top-seller .outer-box .seller-title {
+    color: #fff;
+    font-weight: 600;
+}
+
+.top-seller .outer-box a {
+    text-decoration: none;
+}
+
+.top-seller .outer-box .seller-hyperlink {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.top-seller .outer-box .list-seller {
+    color: #181818;
+    border-color: #93D250;
+    border-radius: 20px;
+}
+
+.top-seller .outer-box .list-seller .card-title {
+    color: #181818;
+}
+
+.top-seller .outer-box .list-seller .seller-price {
+    margin: 0;
+    color: #E9721C;
+    font-weight: 800;
+}
+
+.top-seller .outer-box .list-seller .seller-location {
+    color: #B6B6B6;
+    font-size: small;
+    font-weight: 800;
+}
+
+.top-seller .outer-box .list-seller p {
+    font-weight: 500;
+}
+
+.top-seller .outer-box .list-seller img {
+    border-radius: 50px;
+}
+
+.just-fy .outer-box {
+    border-width: 0;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.just-fy .outer-box .fy-title {
+    color: #181818;
+    font-weight: 600;
+}
+
+.just-fy .outer-box a {
+    text-decoration: none;
+}
+
+.just-fy .outer-box .list-fy {
+    color: #181818;
+    border-color: #F4F4F4;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+}
+
+.just-fy .outer-box .list-fy .card-title {
+    color: #181818;
+}
+
+.just-fy .outer-box .list-fy .fy-price {
+    margin: 0;
+    color: #E9721C;
+    font-weight: 800;
+}
+
+.just-fy .outer-box .list-fy .fy-location {
+    color: #B6B6B6;
+    font-size: small;
+    font-weight: 800;
+}
+
+.just-fy .outer-box .list-fy p {
+    font-weight: 500;
+}
+
+.just-fy .outer-box .list-fy img {
+    border-radius: 30px;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    background-color: #181818;
+}
+
+footer .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+footer p {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: x-small;
+}
+
+footer .social-media {
+    filter: invert();
+}
+
+footer .social-media a {
+    text-decoration: none;
+}

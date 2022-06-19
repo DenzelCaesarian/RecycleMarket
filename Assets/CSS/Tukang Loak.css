@@ -1,0 +1,121 @@
+body {
+    background-color: #fff;
+}
+
+/* Header */
+.navbar {
+    background-color: #93D250;
+}
+
+.navbar .navbar-kembali i {
+    color: #181818;
+}
+
+.navbar .navbar-kembali span {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
+    font-size: small;
+}
+
+.navbar .search-bar input {
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.navbar .search-bar input::placeholder {
+    color: #93D250;
+    font-size: small;
+}
+
+.navbar .search-bar button {
+    color: #fff;
+    font-size: small;
+    border-radius: 10px;
+    border-color: #fff;
+}
+
+.navbar .filter button {
+    color: #fff;
+    border-color: #fff;
+    border-radius: 10px;
+    border-width: 1;
+    font-size: normal;
+    background-color: #93D250;
+}
+
+.navbar .rating  {
+    color: #F5BB00;
+}
+
+/* Tukang Loak */
+.tukang-loak a {
+    color: #181818;
+    text-decoration: none;
+}
+
+.tukang-loak .card {
+    border-radius: 15px;
+    border-color: #93D250;
+}
+
+.tukang-loak .card h5 {
+    font-weight: 600;
+}
+
+.tukang-loak .card p {
+    margin: 0;
+}
+
+.tukang-loak .card .rated {
+    color: #F5BB00;
+}
+
+.tukang-loak .card .unrated {
+    color: #ccc;
+}
+
+.tukang-loak button {
+    color: #181818;
+    border-radius: 10px;
+    border-width: 0;
+    width: 80px;
+    height: 40px;
+}
+
+.tukang-loak .btn-primary {
+    background-color: #93D250;
+}
+
+.tukang-loak .btn-primary:hover {
+    color: #fff;
+    background-color: #457117;
+}
+
+.tukang-loak .btn-secondary:hover {
+    color: #181818;
+    background-color: #aaa;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    background-color: #181818;
+}
+
+footer .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+footer p {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: x-small;
+}
+
+footer .social-media {
+    filter: invert();
+}
+
+footer .social-media a {
+    text-decoration: none;
+}
