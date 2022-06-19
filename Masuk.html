@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk</title>
+    <link rel="stylesheet" href="Assets/CSS/Bootstrap.css">
+    <link rel="stylesheet" href="Assets/CSS/Masuk.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="Beranda.html">
+                Recycle<br>Market.
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span>
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ms-auto py-5">
+                    <li class="nav-item px-2 py-1">
+                        <a class="nav-link" href="Beranda.html">Beranda</a>
+                    </li>
+                    <li class="nav-item px-2 py-1">
+                        <a class="nav-link" href="Jual.html">Jual</a>
+                    </li>
+                    <li class="nav-item px-2 py-1">
+                        <a class="nav-link" href="Perbaiki.html">Perbaiki</a>
+                    </li>
+                    <li class="nav-item px-2 py-1">
+                        <a class="nav-link" href="Toko.html">Toko</a>
+                    </li>
+                    <li class="nav-item px-2 py-1">
+                        <a class="nav-link" href="Hubungi Kami.html">Hubungi Kami</a>
+                    </li>
+                    <li class="nav-item px-2 py-1">
+                        <a class="btn btn-outline-success px-4" aria-current="page" href="Masuk.html" role="button">Masuk</a>
+                    </li>
+                    <li class="nav-item px-2 py-1">
+                        <a class="btn btn-success px-4" href="Daftar.html" role="button">Daftar</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="masuk">
+        <div class="container pt-md-5">
+            <div class="row justify-content-center pb-5">
+                <div class="col col-xl-4 col-md-8 col-10 px-4 align-self-center">
+                    <h1 class="pt-xl-5">Masuk</h1>
+                    <p>Selamat Datang kembali ke aplikasi Recycle Market.</p>
+                    <form class="row g-2 needs-validation text-left py-xl-5" novalidate>
+                        <div class="col-md-12">
+                            <label class="form-label">Alamat Email<span class="star-required">*</span></label>
+                            <input type="email" class="form-control" required>
+                            <div class="invalid-feedback">
+                                Email wajib diisi.
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <label class="form-label">Kata Sandi<span class="star-required">*</span></label>
+                            <input type="password" class="form-control" required>
+                            <div class="invalid-feedback">
+                                Kata Sandi wajib diisi.
+                            </div>
+                        </div>
+                        <div class="col-12 text-end py-3">
+                            <button class="btn btn-success px-4" type="submit">Masuk</button>
+                        </div>
+                      </form>
+                </div>
+                <div class="col col-xl-5 col-md-10 col-9 px-5 text-center align-self-center">
+                    <img src="Assets/Images/6-Masuk.png" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row py-5">
+                <div class="col col-lg-9">
+                    <div class="logo py-3">
+                        Recycle<br>Market.
+                    </div>
+                    <p>© 2022 Recycle Market | Keamanan | Privasi | Ketentuan</p>
+                </div>
+                <div class="col col-lg-3 social-media align-self-center">
+                    <div class="text-end">
+                        <a href="https://www.facebook.com/" class="px-1">
+                            <img src="https://img.icons8.com/ios-glyphs/30/000000/facebook.png"/>
+                        </a>
+                        <a href="https://www.instagram.com/" class="px-1">
+                            <img src="https://img.icons8.com/windows/32/000000/instagram-new.png"/>
+                        </a>
+                        <a href="https://twitter.com/" class="px-1">
+                            <img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Assets/JS/Bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/55d68940e4.js" crossorigin="anonymous"></script>
+    <script>
+        var forms = document.querySelectorAll(".needs-validation");
+
+        Array.prototype.slice.call(forms).forEach(function(form) {
+            form.addEventListener("submit", function(event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+
+                form.classList.add("was-validated");
+            }, false);
+        });
+    </script>
+</body>
+</html>
